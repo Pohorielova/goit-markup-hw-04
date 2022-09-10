@@ -189,8 +189,6 @@ p {
   padding-bottom: 94px;
 }
 .hero-bcg {
-  padding-top: 200px;
-  padding-bottom: 200px;
   max-width: 1600px;
   min-height: 600px;
   margin-left: auto;
@@ -208,6 +206,8 @@ p {
 .hero {
   background-color: var(--primary-dark-color);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   color: var(--clear-white-color);
@@ -292,6 +292,9 @@ p {
 .section-team {
   background-color: var(--secondary-white-color);
 }
+.team-discription {
+  padding: 30px 32px;
+}
 
 .team-list {
   display: flex;
@@ -318,10 +321,6 @@ p {
   margin-bottom: 50px;
 }
 
-.team-list .pic {
-  margin-bottom: 30px;
-}
-
 .team-list .tiny-title {
   font-weight: 500;
   font-size: 16px;
@@ -343,7 +342,6 @@ p {
 .social-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
 }
 .social-link {
   display: flex;
@@ -445,6 +443,7 @@ p {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .border {
+  padding: 20px 24px;
   border: 1px solid var(--border-whitelight-color);
 }
 
@@ -464,8 +463,6 @@ p {
   line-height: 2;
   letter-spacing: 0.06em;
 
-  margin-top: 20px;
-  margin-left: 24px;
   display: block;
 }
 
@@ -477,8 +474,7 @@ p {
   letter-spacing: 0.03em;
 
   margin-top: 4px;
-  margin-left: 24px;
-  margin-bottom: 24px;
+
   display: block;
 }
 
